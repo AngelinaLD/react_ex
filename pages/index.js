@@ -1,7 +1,7 @@
 /** @format */
 
 function HomePage() {
-  return <div>Welcome to Next.js!</div>;
+  return <div>Инна писька</div>;
 }
 
 export default HomePage;
