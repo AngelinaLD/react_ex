@@ -1,11 +1,13 @@
 /** @format */
-import React, { Component } from "react";
-function HomePage() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Инна писька на голубом фоне
-    </h1>
-  );
+import { useState, useEffect } from "react";
+import MovieList from "../components/MovieList.jsx";
+import Search from "../components/Search.jsx";
+
+export default function ShowMovies() {
 }
 
-export default HomePage;
+export default async function getStaticProps() {
+  const movies = [
+    ///
+  ]
+}
